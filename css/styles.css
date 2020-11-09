@@ -1,5 +1,25 @@
 body
 {
     background-color: #f4f4f4;
-    color:#555555
+    color:#555555;
+    /*
+    font-family:tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    */
+    font: normal 18px arial, Helvetica, sans-serif;
+    line-height: 1.8em;
+    margin: 0;
+}
+
+.container
+{
+    width: 90%;
+    margin: auto;
+}
+
+.box1
+{
+    background-color:#333;
+    color:#fff;
 }
