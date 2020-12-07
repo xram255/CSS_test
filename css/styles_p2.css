@@ -1,0 +1,27 @@
+.thick_green_border
+{
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+h2 
+{
+    font-family: Mansalva;
+    border: olive;
+    border-style: solid;
+}
+
+.para1
+{
+    color: navy;
+    font-family: Baloo Da 2, Mansalva, Nerko One;
+    font-size: 25px;
+}
+
+.smaller_img
+{
+    width: 400px;
+}
+
