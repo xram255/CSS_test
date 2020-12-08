@@ -16,19 +16,85 @@ h2
 .para1
 {
     color: navy;
-    font-family: Baloo Da 2, Mansalva, Nerko One;
+    font-family: Baloo Da 2, Mansalva, Nerko One, Arial;
     font-size: 25px;
 }
 
 .smaller_img
 {
-    width: 400px;
+    width: 100px;
 }
-
+/*
 #nuclear_form
 {
     font-family: Baloo Da 2;
     color: indigo;
     font-size: 20px;
+    background-color: yellowgreen;;
+}
+*/
+#header2id 
+{
+    /* ids always have more priority than classes*/
+    color: darkslategrey;
+}
 
+.header2class
+{
+    color: rebeccapurple;
+}
+/*
+.inp
+{
+    font-family: Baloo Da 2;
+    border-color: red;
+    border-width: 25px;
+    border-style: solid;
+}
+*/
+[type='checkbox']
+{
+    margin: 30px;    
+}
+
+body
+{
+    background-color: darkcyan;
+}
+/*
+#shape
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 40%;
+    background: darkred;
+    
+}
+/*
+#shape
+{
+    width: 0; 
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+    clip-path: circle(50% at 50% 50%);
+}
+*/
+/*
+#shape
+{
+    width: 100px; 
+    height: 100px;
+    clip-path: circle(50.4% at 50% 66%);
+    
+    background-color: darkviolet;
+}
+*/
+#shape
+{
+    background: lightblue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
 }
